@@ -5,13 +5,11 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -d dist"
+    "lint": "vue-cli-service lint"
   },
   "homepage": "https://SpicyCoder.github.io",
   "dependencies": {
     "core-js": "^2.6.5",
-    "gh-pages": "^2.0.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuetify": "^1.5.5"
