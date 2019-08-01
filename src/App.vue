@@ -32,6 +32,11 @@
         </v-layout>
       </v-container>
     </v-content>
+    <v-footer fixed>
+      <v-spacer></v-spacer>
+      {{ new Date().getFullYear() }} - Powered by Vue & Vuetify
+      <v-spacer></v-spacer>
+    </v-footer>
   </v-app>
 </template>
 
