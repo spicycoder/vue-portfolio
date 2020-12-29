@@ -59,7 +59,7 @@ export default {
                 title: 'Software Engineer'
             },
             {
-                color: 'pink',
+                color: 'blue-grey',
                 year: 'June-2013',
                 company: 'Kony Labs',
                 link: 'https://www.kony.com',
@@ -73,11 +73,25 @@ export default {
                 title: 'Senior Software Engineer'
             },
             {
-                color: 'cyan',
+                color: 'indigo',
                 year: 'June-2016',
                 company: 'Eurofins',
                 link: 'https://www.eurofins.com',
                 title: 'Module Lead'
+            },
+            {
+                color: 'pink',
+                year: 'August-2019',
+                company: 'JustAnswer',
+                link: 'https://www.justanswer.com',
+                title: 'Senior Software Engineer'
+            },
+            {
+                color: 'green',
+                year: 'August-2020',
+                company: 'Talent Recruit',
+                link: 'http://talentrecruit.com',
+                title: 'Vice President - Technology'
             }
         ]
     }),

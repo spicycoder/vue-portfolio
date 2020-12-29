@@ -34,7 +34,7 @@
     </v-content>
     <v-footer fixed>
       <v-spacer></v-spacer>
-      {{ new Date().getFullYear() }} - Powered by Vue & Vuetify
+      {{ new Date().getFullYear() }} - Built with Vue & Vuetify
       <v-spacer></v-spacer>
     </v-footer>
   </v-app>
