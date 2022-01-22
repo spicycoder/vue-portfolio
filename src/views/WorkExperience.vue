@@ -1,35 +1,25 @@
 <template>
     <v-timeline>
-        <v-timeline-item
-        v-for="(i, index) in info"
-        :key="index"
-        :color="i.color"
-        small
-        >
-        <template v-slot:opposite>
-            <span
-            :class="`headline font-weight-bold ${i.color}--text`"
-            v-text="i.year"
-            ></span>
-        </template>
-        <v-card>
-            <v-card-title>
-                <span :class="`headline ${i.color}--text`">
-                    {{i.company}}
-                </span>
-            </v-card-title>
-            <v-sheet class="d-flex" :color="`${i.color} lighten-3`">
-                <v-list two-line>
-                    <v-list-tile @click="openLink(i)">
-                        <v-list-tile-content>
-                            <v-list-tile-title>{{ i.title }}</v-list-tile-title>
-                        </v-list-tile-content>
-                    </v-list-tile>
-                </v-list>
-            </v-sheet>
-        </v-card>
+        <v-timeline-item v-for="(i, index) in info" :key="index" :color="i.color" small>
+            <template v-slot:opposite>
+                <span :class="`headline font-weight-bold ${i.color}--text`" v-text="i.year"></span>
+            </template>
+            <v-card>
+                <v-card-title>
+                    <span :class="`headline ${i.color}--text`">{{ i.company }}</span>
+                </v-card-title>
+                <v-sheet class="d-flex" :color="`${i.color} lighten-3`">
+                    <v-list two-line>
+                        <v-list-tile @click="openLink(i)">
+                            <v-list-tile-content>
+                                <v-list-tile-title>{{ i.title }}</v-list-tile-title>
+                            </v-list-tile-content>
+                        </v-list-tile>
+                    </v-list>
+                </v-sheet>
+            </v-card>
         </v-timeline-item>
-  </v-timeline>
+    </v-timeline>
 </template>
 
 <script>
@@ -66,7 +56,7 @@ export default {
                 title: 'Senior Product Developer'
             },
             {
-                color: 'amber',
+                color: 'lime',
                 year: 'October-2014',
                 company: 'ABCO Advisory Services',
                 link: 'https://www.advisory.com',
@@ -80,18 +70,25 @@ export default {
                 title: 'Module Lead'
             },
             {
-                color: 'pink',
+                color: 'green',
                 year: 'August-2019',
                 company: 'JustAnswer',
                 link: 'https://www.justanswer.com',
                 title: 'Senior Software Engineer'
             },
             {
-                color: 'green',
+                color: 'pink',
                 year: 'August-2020',
                 company: 'Talent Recruit',
                 link: 'http://talentrecruit.com',
                 title: 'Vice President - Technology'
+            },
+            {
+                color: 'green',
+                year: 'April-2021',
+                company: 'JustAnswer',
+                link: 'https://www.justanswer.com',
+                title: 'Associate Architect'
             }
         ]
     }),
