@@ -93,7 +93,7 @@ export default {
                 ]
             },
             {
-                name: "Quality",
+                name: "Performance",
                 skills: [
                     "NBomber",
                     "Benchmark.Net"
@@ -146,9 +146,10 @@ export default {
                 ]
             },
             {
-                name: "Source Control",
+                name: "Microservices",
                 skills: [
-                    "Git"
+                    "Project Tye",
+                    "DAPR"
                 ]
             },
             {
