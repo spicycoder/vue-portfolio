@@ -105,7 +105,8 @@ export default {
                     "HTML 5",
                     "CSS 3",
                     "TypeScript",
-                    "JavaScript"
+                    "JavaScript",
+                    "Angular"
                 ]
             },
             {
@@ -138,11 +139,11 @@ export default {
                 ]
             },
             {
-                name: "Mobile Development",
+                name: "Principles",
                 skills: [
-                    "Ionic 6",
-                    "Progressive Web App (PWA)",
-                    "MAUI"
+                    "SOLID",
+                    "DRY",
+                    "SOA"
                 ]
             },
             {
