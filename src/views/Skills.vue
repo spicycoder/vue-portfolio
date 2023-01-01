@@ -73,16 +73,15 @@ export default {
                 name: "Web Application",
                 skills: [
                     "ASP.Net Core",
-                    "ASP.Net MVC & Web API",
-                    "ASP.Net Web Forms"
+                    "ASP.Net Framework",
+                    "Blazor"
                 ]
             },
             {
                 name: "Desktop Application",
                 skills: [
                     "Windows Presentation Foundation",
-                    "Windows Forms",
-                    "Universal Windows Platform (UWP)"
+                    "Windows Forms"
                 ]
             },
             {
@@ -96,16 +95,13 @@ export default {
             {
                 name: "Quality",
                 skills: [
-                    "UI - Automation",
-                    "Performance testing",
-                    "BenchmarkDotNet & JMeter"
+                    "NBomber",
+                    "Benchmark.Net"
                 ]
             },
             {
                 name: "Frontend Technologies",
                 skills: [
-                    "Angular 8",
-                    "Vue 3",
                     "HTML 5",
                     "CSS 3",
                     "TypeScript",
@@ -118,20 +114,18 @@ export default {
                     "xUnit",
                     "nUnit",
                     "Moq",
-                    "Shouldly",
-                    "nFluent",
+                    "NSubstitute",
                     "Fluent Assertion"
                 ]
             },
             {
                 name: "Productivity Tools",
                 skills: [
-                    "Resharper",
+                    "Resharper / Rider",
                     "LinqPad",
                     "RoslynPad",
                     "NSwag Studio",
-                    "Postman",
-                    "MagicDraw"
+                    "Postman"
                 ]
             },
             {
@@ -140,23 +134,21 @@ export default {
                     "SQL Server",
                     "MongoDB",
                     "Entity Framework",
-                    "nHibernate",
-                    "Dapper",
-                    "C# MongoDB Driver"
+                    "Dapper"
                 ]
             },
             {
                 name: "Mobile Development",
                 skills: [
-                    "Ionic 4",
-                    "Progressive Web App (PWA)"
+                    "Ionic 6",
+                    "Progressive Web App (PWA)",
+                    "MAUI"
                 ]
             },
             {
                 name: "Source Control",
                 skills: [
-                    "Git",
-                    "TFS"
+                    "Git"
                 ]
             },
             {
